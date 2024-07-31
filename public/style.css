@@ -1,0 +1,127 @@
+body {
+    background-color: #090943;
+    opacity: 0.8;
+    background-image:  radial-gradient(#0C0508 0.5px, transparent 0.8px), radial-gradient(#555776 0.8px, #0C0508 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;  
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+li{
+    list-style:none;
+}
+.menuToggle > input{
+    display: none !important;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #0C0508;
+}
+ul > li:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    margin-right: 20%;
+    
+}
+ul > li > a:hover{
+    border-left: 3px solid #3498db;
+    border-right: 3px solid #3498db;
+    width: 100%;
+}
+ul > li:nth-child(1):hover{
+  text-shadow: 0 0 20px #33bac1 !important;
+}
+
+
+main{
+    color: #ebf8f9;
+    margin-top: 80px;
+}
+.img-fluid{
+    border-radius: 5%;
+}
+.text-design{
+    font-size: 3rem;
+}
+.featured-hero{
+    color: #33bac1;
+}
+.primary-button{
+    background-color: #33bac1;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.primary-button:hover{
+    box-shadow: 0 5px 10px grey ;
+}
+.secondary-button:hover{
+    box-shadow: 0 6px 5px white;
+}
+.secondary-button{
+    background-color: #1c2069;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+.box-skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 20px;
+    color: #ebf8f9 !important;
+    background-color: #1E1E1E;
+}
+.box-skill-container:hover{
+    box-shadow: 0 10px 10px #1c2069;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
