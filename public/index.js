@@ -44,3 +44,7 @@
         }
       });
     }
+function copyEmail() {
+  navigator.clipboard.writeText("marcrolandmarc@gmail.com");
+  alert("Email copied!");
+}
